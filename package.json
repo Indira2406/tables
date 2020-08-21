@@ -1,0 +1,40 @@
+{
+  "name": "gulp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env AUTOPREFIXER_GRID=autoplace react-scripts start",
+    "build": "cross-env AUTOPREFIXER_GRID=autoplace react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "development": [
+    "last 1 chrome version",
+    "last 1 firefox version",
+    "last 1 safari version",
+    "last 1 ie version"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "cross-env": "^7.0.2",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-html": "^3.2.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "htmlmin": "0.0.7",
+    "node-normalize-scss": "^8.1.2"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.12",
+    "imagemin": "^7.0.1",
+    "normalize.css": "^8.0.1"
+  },
+  "description": ""
+}
