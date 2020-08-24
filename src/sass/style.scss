@@ -10,35 +10,36 @@ body {
 .page {
     margin: 0 auto;
     display: grid;
-    grid-template-columns: [start] 221px [col1] 1500px [col-end];
+    grid-template-columns: [start] 14% [col1] 86% [col-end];
     grid-template-rows: 100%;
-    // max-width: 1440px;
+
+    max-width: 1440px;
 }
 a, ul, li, p {
     margin: 0;
     padding: 0;
 }
 
-:root {
-    @media(max-width: 1280px) {
-        font-size: 15px;
-    }
-    @media(max-width: 1100px) {
-        font-size: 14px;
-    }
-    @media(max-width: 992px) {
-        font-size: 13px;
-    }
-    @media(max-width: 767px ) {
-        font-size: 12px;
-    }
-    @media(max-width: 540px) {
-        font-size: 11px;
-    }
-    @media(max-width: 400px) {
-        font-size: 10px;
-    }
-}
+// :root {
+//     @media(max-width: 1280px) {
+//         font-size: 15px;
+//     }
+//     @media(max-width: 1100px) {
+//         font-size: 14px;
+//     }
+//     @media(max-width: 992px) {
+//         font-size: 13px;
+//     }
+//     @media(max-width: 767px ) {
+//         font-size: 12px;
+//     }
+//     @media(max-width: 540px) {
+//         font-size: 11px;
+//     }
+//     @media(max-width: 400px) {
+//         font-size: 10px;
+//     }
+// }
 @import "variables";
 @import "sidebar";
 @import "content";

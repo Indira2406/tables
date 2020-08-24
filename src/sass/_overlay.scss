@@ -11,11 +11,11 @@
     color: #28476B;
     position: relative;
     background-color: #fff;
-    max-width: 1400px;
-    padding: 20px 20px 90px 20px;
+    max-width: 95%;
+    padding: 1.25em 1.25em 5.625em 1.25em;
     box-sizing: border-box;
     margin: 0 auto;
-    top:10%;
+    top: -45%;
     &__title {
         height: 2.95em;
         font-size: 8px;
@@ -26,77 +26,95 @@
         position: absolute;
         top: 17px;
         right: 13px;
-        font-size: 30px;
+        font-size: 1.875rem;
         cursor: pointer;
     }
     h2 {
-        font-size: 22px;
-        line-height: 30px;
+        font-size: 1.375rem;
+        line-height: 1.875rem;
         font-weight: 700;
     }
     &-info {
         display: grid;
-        grid-template-columns: [start] 138px [col-1] 200px [col-2] 210px [col-3] 160px [col-end];
-        grid-template-rows: [start] 56px [row-1] 38px [row-2] 56px [row-end];
+        grid-template-columns: [start] 11.5em [col-1] 16.7em [col-2] 17.5em [col-3] 13.33em [col-end];
+        grid-template-rows: [start] 4.67em [row-1] 3.17em [row-2] 4.67em [row-end];
         margin-top: 3em;
         margin-bottom: 4em;
-        font-size: 12px;
+        font-size: 0.75rem;
         line-height: 160%;
-        grid-gap: 27px 66px;
+        grid-gap: 2.25em 5.5em;
         color: #28476B;
         &__title {
             color: #5B50D3;
         }
 
     }
+    &__wrapper {
+        width: 1135px;
+      position: relative;
+        overflow-x: scroll;
+    }
+    table {
+        width: 1550px;
+        z-index: -2;
+    }
     td {
-        padding-right: 10px;
+        padding-right: 1.125em;
         box-sizing: border-box;
-        font-size: 12px;
+        font-size: 0.75rem;
         margin-bottom: 4.1em;
     }
+    
     th {
-        font-size: 8px;
+        font-size: 0.67rem;
         &::before {
             top: 18%;
             right: 4%;
         }
     }
     tr {
+        
         &:nth-child(even) {
             background-color: rgba(91,80,211,.1);
         }
     }
     &-item {
+        &__number {
+            width: 38px;
+        }
         &__servfrom {
-            width: 131px;
+            width: 124px;
         }
         &__serv-through {
-            width: 131px;
+            width: 128px;
         }
         &__billed {
-            width: 131px;
+            width: 125px;
         }
         &__paid {
-            width: 131px;
+            width: 125px;
         }
         &__code {
-            width: 202px;
+            width: 197px;
         }
         &__linecharge {
-            width: 105px;
+            width: 98px;
         }
         &__lineallow {
-            width: 111px;
+            width: 107px;
         }
         &__place {
-            width: 85px;
+            width: 82px;
         }
         &__modifier {
-            width: 83px;
+            width: 80px;    
+
         }
         &__units {
-            width: 62px;    
+            width: 61px;    
+        }
+        &__render {
+            width: 89px;
         }
     }
     &-scroll {
@@ -145,3 +163,31 @@
     }
 
 } 
+
+::-webkit-scrollbar {
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #fff;
+    border: 1px solid #E2E0F7;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #E2E0F7; 
+}
+
+::-webkit-scrollbar-button:double-button { 
+    background-color: red; 
+    height: 16px; 
+    width: 16px; 
+} 
+  ::-webkit-scrollbar-button:horizontal:decrement {
+    background: url(../img/chevron-down.png)  no-repeat 50% 50%;;
+
+    background-size: cover;   /* Tweak this to fit the image*/
+    background-repeat: no-repeat;  
+    background-color: transparent; 
+  }
+  
+

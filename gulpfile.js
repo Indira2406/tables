@@ -7,6 +7,10 @@ const rename = require("gulp-rename");
 const imagemin = require('gulp-imagemin');
 const htmlmin = require('gulp-htmlmin');
 
+const scrollLock = require('scroll-lock');
+// scrollLock.disablePageScroll();
+
+
 gulp.task('server', function() {
 
     browserSync({

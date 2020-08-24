@@ -12,14 +12,14 @@
 <body>
 <div class="page">
     <div class="sidebar">
-        <a href="page1.html" class="sidebar__item">
+        <a href="page1.html" class="sidebar__item sidebar__item_active">
             <svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M14.875 10.5894V2.08936H2.125V10.5894H14.875ZM14.875 0.694824C15.2734 0.694824 15.6055 0.838704 15.8711 1.12646C16.1589 1.39209 16.3027 1.71305 16.3027 2.08936V10.5894C16.3027 10.9878 16.1589 11.3309 15.8711 11.6187C15.6055 11.8843 15.2734 12.0171 14.875 12.0171H9.92773V13.4448H11.3223V14.8394H5.67773V13.4448H7.07227V12.0171H2.125C1.72656 12.0171 1.38346 11.8843 1.0957 11.6187C0.830078 11.3309 0.697266 10.9878 0.697266 10.5894V2.08936C0.697266 1.71305 0.830078 1.39209 1.0957 1.12646C1.38346 0.838704 1.72656 0.694824 2.125 0.694824H14.875ZM3.55273 3.51709H9.92773V7.06982H3.55273V3.51709ZM10.625 3.51709H13.4473V4.94482H10.625V3.51709ZM13.4473 5.64209V9.19482H10.625V5.64209H13.4473ZM3.55273 7.76709H6.375V9.19482H3.55273V7.76709ZM7.07227 7.76709H9.92773V9.19482H7.07227V7.76709Z" fill="#28476B" fill-opacity="0.4"/>
                 </svg>                    
             <p>Table 1</p>
         </a>
         
-         <a href="#" class="sidebar__item sidebar__item_active">
+         <a href="index.html" class="sidebar__item">
             <svg width="13" height="15" viewBox="0 0 13 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M11.4473 2.06314H8.49219C8.33724 1.64257 8.07161 1.29947 7.69531 1.03384C7.34115 0.768219 6.94271 0.635406 6.5 0.635406C6.05729 0.635406 5.64779 0.768219 5.27148 1.03384C4.91732 1.29947 4.66276 1.64257 4.50781 2.06314H1.55273C1.1543 2.06314 0.811198 2.20702 0.523438 2.49478C0.257812 2.76041 0.125 3.09244 0.125 3.49088V13.3854C0.125 13.7838 0.257812 14.1269 0.523438 14.4147C0.811198 14.6803 1.1543 14.8131 1.55273 14.8131H11.4473C11.8457 14.8131 12.1777 14.6803 12.4434 14.4147C12.7311 14.1269 12.875 13.7838 12.875 13.3854V3.49088C12.875 3.09244 12.7311 2.76041 12.4434 2.49478C12.1777 2.20702 11.8457 2.06314 11.4473 2.06314ZM6.5 2.06314C6.69922 2.06314 6.86523 2.12955 6.99805 2.26236C7.13086 2.39517 7.19727 2.56119 7.19727 2.76041C7.19727 2.95963 7.13086 3.13671 6.99805 3.29166C6.86523 3.42447 6.69922 3.49088 6.5 3.49088C6.30078 3.49088 6.13477 3.42447 6.00195 3.29166C5.86914 3.13671 5.80273 2.95963 5.80273 2.76041C5.80273 2.56119 5.86914 2.39517 6.00195 2.26236C6.13477 2.12955 6.30078 2.06314 6.5 2.06314ZM2.94727 4.88541H10.0527V3.49088H11.4473V13.3854H1.55273V3.49088H2.94727V4.88541Z" fill="#28476B" fill-opacity="0.4"/>
             </svg>                 
@@ -34,7 +34,7 @@
     </div>
 
    <div class="content">
-    <div class="content-item">
+    <div class="content-item" id="tab1">
         <table>
             <thead>
             <tr class="content__title">
@@ -1973,134 +1973,126 @@
             </div>
     
             </div>
-          <div class="popup__wrapper">
             <table>
-                <tbody>
-                      <tr class="popup__title">
-                        <th class="popup-item__number">#</th>
-                        <th class="popup-item__servfrom">service from da..</th>
-                        <th class="popup-item__serv-through">service through..</th>
-                        <th class="popup-item__billed">Billed Procedur..</th>
-                        <th class="popup-item__paid">paid Procedure ...</th>
-                        <th class="popup-item__code">paid Procedure Code desk</th>
-                        <th class="popup-item__linecharge">Line Charge</th>
-                        <th class="popup-item__lineallow"> Line allowed..</th>
-                        <th class="popup-item__place">place of...</th>
-                        <th class="popup-item__place">place of...</th>
-                        <th class="popup-item__modifier">modifier</th>
-                        <th class="popup-item__units">units..</th>
-                        <th class="popup-item__render">Rendering...</th>
-                      </tr>
-        
-                        <tr> 
-                            <td>1</td>
-                            <td>04-12-2018</td>
-                            <td>04-12-2018</td>
-                            <td>0000</td>
-                            <td>97110</td>
-                            <td>MANUAL THERAPY TQS 1/> RE</td>
-                            <td>$95.00</td>
-                            <td>$195.08</td>
-                            <td>11</td>
-                            <td>11</td>
-                            <td>11</td>
-                            <td>11</td>
-                            <td>11</td>
-                        </tr>
-                        <tr> 
-                            <td>1</td>
-                            <td>04-12-2018</td>
-                            <td>04-12-2018</td>
-                            <td>0000</td>
-                            <td>97110</td>
-                            <td>MANUAL THERAPY TQS 1/> RE</td>
-                            <td>$95.00</td>
-                            <td>$195.08</td>
-                            <td>11</td>
-                            <td>11</td>
-                            <td>11</td>
-                            <td>11</td>
-                            <td>11</td>
-                        </tr>
-                        <tr> 
-                            <td>1</td>
-                            <td>04-12-2018</td>
-                            <td>04-12-2018</td>
-                            <td>0000</td>
-                            <td>97110</td>
-                            <td>MANUAL THERAPY TQS 1/> RE</td>
-                            <td>$95.00</td>
-                            <td>$195.08</td>
-                            <td>11</td>
-                            <td>11</td>
-                            <td>11</td>
-                            <td>11</td>
-                            <td>11</td>
-                        </tr>
-                        <tr> 
-                            <td>1</td>
-                            <td>04-12-2018</td>
-                            <td>04-12-2018</td>
-                            <td>0000</td>
-                            <td>97110</td>
-                            <td>MANUAL THERAPY TQS 1/> RE</td>
-                            <td>$95.00</td>
-                            <td>$195.08</td>
-                            <td>11</td>
-                            <td>11</td>
-                            <td>11</td>
-                            <td>11</td>
-                            <td>11</td>
-                        </tr>
-                        <tr> 
-                            <td>1</td>
-                            <td>04-12-2018</td>
-                            <td>04-12-2018</td>
-                            <td>0000</td>
-                            <td>97110</td>
-                            <td>MANUAL THERAPY TQS 1/> RE</td>
-                            <td>$95.00</td>
-                            <td>$195.08</td>
-                            <td>11</td>
-                            <td>11</td>
-                            <td>11</td>
-                            <td>11</td>
-                            <td>11</td>
-                        </tr>
-                        <tr> 
-                            <td>1</td>
-                            <td>04-12-2018</td>
-                            <td>04-12-2018</td>
-                            <td>0000</td>
-                            <td>97110</td>
-                            <td>MANUAL THERAPY TQS 1/> RE</td>
-                            <td>$95.00</td>
-                            <td>$195.08</td>
-                            <td>11</td>
-                            <td>11</td>
-                            <td>11</td>
-                            <td>11</td>
-                            <td>11</td>
-                        </tr>
-                    </tbody>
-                </table>
-          </div>
-          <div class="scrollbar" >
-            <div class="force-overflow"></div>
-          </div>
-            <!-- <div class="popup-scroll">
+            <tbody>
+                  <tr class="popup__title">
+                    <th class="popup-item__number">#</th>
+                    <th class="popup-item__servfrom">service from da..</th>
+                    <th class="popup-item__serv-through">service through..</th>
+                    <th class="popup-item__billed">Billed Procedur..</th>
+                    <th class="popup-item__paid">paid Procedure ...</th>
+                    <th class="popup-item__code">paid Procedure Code desk</th>
+                    <th class="popup-item__linecharge">Line Charge</th>
+                    <th class="popup-item__lineallow"> Line allowed..</th>
+                    <th class="popup-item__place">place of...</th>
+                    <th class="popup-item__place">place of...</th>
+                    <th class="popup-item__modifier">modifier</th>
+                    <th class="popup-item__units">units..</th>
+                    <th class="popup-item__render">Rendering...</th>
+                  </tr>
+    
+                    <tr> 
+                        <td>1</td>
+                        <td>04-12-2018</td>
+                        <td>04-12-2018</td>
+                        <td>0000</td>
+                        <td>97110</td>
+                        <td>MANUAL THERAPY TQS 1/> RE</td>
+                        <td>$95.00</td>
+                        <td>$195.08</td>
+                        <td>11</td>
+                        <td>11</td>
+                        <td>11</td>
+                        <td>11</td>
+                        <td>11</td>
+                    </tr>
+                    <tr> 
+                        <td>1</td>
+                        <td>04-12-2018</td>
+                        <td>04-12-2018</td>
+                        <td>0000</td>
+                        <td>97110</td>
+                        <td>MANUAL THERAPY TQS 1/> RE</td>
+                        <td>$95.00</td>
+                        <td>$195.08</td>
+                        <td>11</td>
+                        <td>11</td>
+                        <td>11</td>
+                        <td>11</td>
+                        <td>11</td>
+                    </tr>
+                    <tr> 
+                        <td>1</td>
+                        <td>04-12-2018</td>
+                        <td>04-12-2018</td>
+                        <td>0000</td>
+                        <td>97110</td>
+                        <td>MANUAL THERAPY TQS 1/> RE</td>
+                        <td>$95.00</td>
+                        <td>$195.08</td>
+                        <td>11</td>
+                        <td>11</td>
+                        <td>11</td>
+                        <td>11</td>
+                        <td>11</td>
+                    </tr>
+                    <tr> 
+                        <td>1</td>
+                        <td>04-12-2018</td>
+                        <td>04-12-2018</td>
+                        <td>0000</td>
+                        <td>97110</td>
+                        <td>MANUAL THERAPY TQS 1/> RE</td>
+                        <td>$95.00</td>
+                        <td>$195.08</td>
+                        <td>11</td>
+                        <td>11</td>
+                        <td>11</td>
+                        <td>11</td>
+                        <td>11</td>
+                    </tr>
+                    <tr> 
+                        <td>1</td>
+                        <td>04-12-2018</td>
+                        <td>04-12-2018</td>
+                        <td>0000</td>
+                        <td>97110</td>
+                        <td>MANUAL THERAPY TQS 1/> RE</td>
+                        <td>$95.00</td>
+                        <td>$195.08</td>
+                        <td>11</td>
+                        <td>11</td>
+                        <td>11</td>
+                        <td>11</td>
+                        <td>11</td>
+                    </tr>
+                    <tr> 
+                        <td>1</td>
+                        <td>04-12-2018</td>
+                        <td>04-12-2018</td>
+                        <td>0000</td>
+                        <td>97110</td>
+                        <td>MANUAL THERAPY TQS 1/> RE</td>
+                        <td>$95.00</td>
+                        <td>$195.08</td>
+                        <td>11</td>
+                        <td>11</td>
+                        <td>11</td>
+                        <td>11</td>
+                        <td>11</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="popup-scroll">
                 <div class="popup-scroll__img">
                     <img class="popup-scroll__img_left" src="img/chevron-down.png" alt="chevron">
                     <img class="popup-scroll__img_right" src="img/chevron-down.png" alt="chevron">
                 </div>
-            </div> -->
+            </div>
         </div>
     </div>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="js/scroll-lock.min.js"></script>
-
-
     
     <script src="js/index.js">
   

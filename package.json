@@ -34,7 +34,8 @@
   "dependencies": {
     "browser-sync": "^2.26.12",
     "imagemin": "^7.0.1",
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "scroll-lock": "^2.1.4"
   },
   "description": ""
 }
